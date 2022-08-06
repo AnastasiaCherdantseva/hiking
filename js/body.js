@@ -470,7 +470,7 @@ document.querySelector('.navigationTours').onclick = function(){
     ButtonFour.addEventListener('click', function(){
         let Button_Four =document.querySelector('.s-seven > .block-botton');
         Button_Four.scrollIntoView({
-            block: "end" ,
+            block: "center" ,
             inline: "nearest" ,
             behavior: "smooth"
          }) ;
